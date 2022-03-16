@@ -1,0 +1,108 @@
+---
+title: Resume
+output:
+    html_document:
+        css: style.css
+---
+
+```{r setup, include = FALSE}
+source("scripts/sass.R")
+```
+
+<div class=header-flex-container>
+# Alec Wong
+
+<div class=rf>
+<span class=sans>3366 East Scarborough Rd. Cleveland Hts, OH 44118<br>
+aw685@cornell.edu<br>
+917-326-1315</span>
+</div>
+</div>
+
+
+
+# <span class=section-header>Professional Experience</span> {.section-box}
+
+## Progressive Casualty Insurance -- *Senior Data Analyst* {.company-box .pgr-box}
+
+2019 - Current
+
+### Job objectives
+
+- Guided leadership in the effective allocation of staffing for claims handling.
+- Used latest techniques and modern technologies to efficiently obtain, transform, model, and explain patterns in staffing and claims volume data.
+- Communicated findings through several media, including HTML presentations, Tableau dashboards, and Excel spreadsheets.
+- Automated several recurring reports and ETL procedures on linux servers.
+- Convinced leadership to organize and begin using git for critical code.
+
+### Contributions external to role
+
+- As the foremost proponent of R at Progressive, I:
+    - Developed several packages including tools to speed SQL connections, extend `ggplot` with a company color palette, and other miscellaneous functions.
+    - Spent 100 hours in 2021 providing one-on-one support to analysts all over the company
+    - Helped facilitate R Beginner's Workshops, and bi-weekly R Clinics.
+    - Presented at company R meetups.
+    - Contributed to maintenance of a universal setup and configuration utility.
+- Won 2nd place in company-wide modeling challenge, involving over 15 teams.
+
+## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
+
+2015 - 2018
+
+- Developed two novel statistical models to estimate animal population size, applied to moose in New York.
+- Tested statistical model performance via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
+- Gained competency with Bayesian inference using Markov Chain Monte Carlo simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
+- Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and leading laboratory discussions on the use of Git and R Markdown to improve organization of research.
+- Communicated results to statistical and ecological audiences nationally and internationally.
+
+<div class=bottom-grid>
+
+# <span class=section-header>Education</span> {.section-box .bottom-grid-item}
+
+* **Cornell University**, Ithaca, NY
+    * M.S. Quantitative Ecology. 2018. GPA: 4.0
+    * Thesis: Sampling Strategies for Estimating Abundance of Moose (*Alces alces*) and Other Rare Species
+* **University of Nebraska**, Lincoln, NE
+    * B.S. Fisheries and Wildlife. 2013. GPA: 3.84 *cum laude*
+    * Minor: Mathematics
+
+# <span class=section-header>Public Presentations</span> {.section-box .bottom-grid-item}
+
+### 2019 ["Project Organization: Head-Ache to GNU Make" -- Cleveland R User Group](https://www.youtube.com/watch?v=dCkHqzotzsQ)
+
+### 2020 ["Sarcasm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
+
+### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
+
+</div>
+
+<div class=bottom-grid>
+
+# <span class=section-header>Software</span> {.section-box .bottom-grid-item}
+
+* R (package development, statistical analysis)
+* Python (package development, automation)
+* Git
+* SQL
+* JavaScript (D3, Ajax)
+* Front-end development (HTML, CSS)
+* ArcGIS
+* Tableau
+
+# <span class=section-header>Open-Source Contributions</span> {.section-box .bottom-grid-item}
+
+## Pull-requests
+
+* [`keyring` (merged into master)](https://github.com/r-lib/keyring/pull/88)
+* [`import` (open)](https://github.com/rticulate/import/pull/55)
+* [`emphatic` (merged into master)](https://github.com/coolbutuseless/emphatic/pull/4)
+* [`boxr` (merged into master)](https://github.com/r-box/boxr/pull/79)
+
+## Issues
+
+* [`dbplyr`](https://github.com/tidyverse/dbplyr/issues/553)
+* [`emphatic`](https://github.com/coolbutuseless/emphatic/issues/3)
+* [`glue`](https://github.com/tidyverse/glue/issues/158)
+
+
+</div>
