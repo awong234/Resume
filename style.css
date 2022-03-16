@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Serif+Pro:wght@200;300;400&display=swap");
+body {
+  background-color: #0c1b30;
+  color: silver;
+}
+
+code {
+  font-family: "Cascadia Code", "Fira Code", "Hasklig", "Consolas", monospace;
+  background-color: #3d3d3d;
+}
+
+ul, p {
+  font-family: "Source Serif Pro", "Garamond", "serif";
+}
+
+h1, h2, h3 {
+  font-family: "Noto Sans", "Calibri", "sans serif";
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+ul, p {
+  font-size: 1em;
+}
+
+a {
+  color: #75ffed;
+}
+
+a:hover {
+  color: #b7fff5;
+}
+
+a:visited {
+  color: #418b82;
+}
+
+.company-box {
+  border-left: 1px solid #707070;
+  padding-left: 20px;
+  animation-name: company-box-reverse;
+  animation-duration: 0.1s;
+}
+
+.company-box:hover {
+  border-left: 10px solid #b7fff5;
+  padding-left: 11px;
+  animation-name: company-box-extend;
+  animation-duration: 0.1s;
+}
+
+@keyframes company-box-extend {
+  from {
+    border-left: 1px solid #707070;
+    padding-left: 20px;
+  }
+  to {
+    border-left: 10px solid #b7fff5;
+    padding-left: 11px;
+  }
+}
+
+@keyframes company-box-reverse {
+  from {
+    border-left: 10px solid #b7fff5;
+    padding-left: 11px;
+  }
+  to {
+    border-left: 1px solid #707070;
+    padding-left: 20px;
+  }
+}
+
+.pgr-box {
+  background-image: url("./assets/pgr_thumb_round_transp.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 75px;
+}
+
+.cornell-box {
+  background-image: url("./assets/cornell_thumb_round_transp.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 75px;
+}
+
+.section-box {
+  border: 1px inset #707070;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  background-color: #2b3646;
+  border-radius: 0.1cm;
+}
+
+.section-box:hover {
+  border: 1px inset white;
+}
+
+.section-header {
+  border-bottom: 1px solid #707070;
+  animation-name: underline;
+  animation-duration: 0.1s;
+}
+
+.header-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.bottom-grid {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+@media (max-width: 800px) {
+  .bottom-grid {
+    flex-direction: column;
+  }
+}
+
+.bottom-grid-item {
+  flex-grow: 2;
+}
+
+#header {
+  display: none;
+}
+
+.rj {
+  text-align: right;
+}
+
+.sans {
+  font-family: "Noto Sans", "Calibri", "sans serif";
+}
+
+.test {
+  border: 1px solid red;
+}

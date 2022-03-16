@@ -1,0 +1,124 @@
+---
+title: Resume
+output:
+    html_document:
+        css: style.css
+---
+
+```{r setup, include = FALSE}
+source("scripts/sass.R")
+```
+
+<div class=header-flex-container>
+# Alec Wong
+</div>
+
+# <span class=section-header>Professional Experience</span> {.section-box}
+
+## Progressive Casualty Insurance -- *Lead Data Analyst* {.company-box .pgr-box}
+
+2019 - Present | 2022 - Present (at Lead level)
+
+### Highlighted role achievements
+
+- Modeled claims adjuster productivity using zero-inflated negative binomial GLM as well as non-linear mixed modeling, developing theory for an alternative staffing criterion.
+- Forecasted when claim ID numbers will exceed limits using Bayesian generalized linear regression with `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
+- Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting workload to predict impact of temporarily hired claims adjusters.
+- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake) creating complex queries joining several tables each with hundreds of millions of records.
+
+### Contributions additional to role
+
+- Pushed for code best-practices early, introduced git to our team, and checked critical code into Github repositories.
+- Developed curricula for and taught a dual R and Python course to 25 attendees over the course of 9 months.
+- Developed several R and python packages including tools to eliminate boilerplate in SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
+- Spent over 100 hours between 2021 and 2024 providing one-on-one support to analysts all over the company supporting R, Python, and SQL questions.
+- Helped facilitate R Beginner's Workshops, led bi-weekly R Support Sessions, and produced an in-house newsletter.
+- Assisted in the setup and maintenance of Posit corporate productivity software, and an in-house python cloud platform.
+- Won 2nd place in company-wide modeling challenge, involving over 15 teams.
+
+## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
+
+2015 - 2018
+
+- Developed two novel statistical models to estimate animal population size applied to moose in New York.
+- Tested statistical model performance via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
+- Gained competency with Bayesian inference using Markov Chain Monte Carlo simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
+- Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and led laboratory discussions on the use of Git and R Markdown to improve organization of research.
+- Communicated results to statistical and ecological audiences nationally and internationally.
+
+<div class=bottom-grid>
+
+# <span class=section-header>Education</span> {.section-box .bottom-grid-item}
+
+* **Cornell University**, Ithaca, NY
+    * M.S. Quantitative Ecology. 2018. GPA: 4.0
+    * Thesis: Sampling Strategies for Estimating Abundance of Moose (*Alces alces*) and Other Rare Species
+* **University of Nebraska**, Lincoln, NE
+    * B.S. Fisheries and Wildlife. 2013. GPA: 3.84 *cum laude*
+    * Minor: Mathematics
+
+# <span class=section-header>Public Engagement</span> {.section-box .bottom-grid-item}
+
+### 2019 ["Project Organization: Head-Ache to GNU Make" -- Cleveland R User Group](https://www.youtube.com/watch?v=dCkHqzotzsQ)
+
+### 2020 ["Sarcasm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
+
+### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
+
+### 2022 - Present [Co-organizer of the Cleveland R User Group](https://www.meetup.com/cleveland-user-group/)
+
+### 2024 - Present ["Data Laundry" data cleaning & exploration series](https://github.com/awong234/laundry-day)
+
+</div>
+
+<div class=bottom-grid>
+
+# <span class=section-header>Software</span> {.section-box .bottom-grid-item}
+
+* R (package development, statistical analysis)
+* Python (package development, automation, machine learning)
+* Git
+* SQL
+* Front-end development (HTML, CSS, JavaScript)
+* Tableau / Power BI
+* ArcGIS
+
+# <span class=section-header>Open-Source Contributions</span> {.section-box .bottom-grid-item}
+
+## Pull-requests
+
+* [`keyring` (merged into master)](https://github.com/r-lib/keyring/pull/88)
+* [`import` (merged into dev)](https://github.com/rticulate/import/pull/55)
+* [`emphatic` (merged into master)](https://github.com/coolbutuseless/emphatic/pull/4)
+* [`boxr` (merged into master)](https://github.com/r-box/boxr/pull/79)
+* [`novaGallery` (open PR)](https://github.com/novafacile/novagallery/pull/51)
+
+## Issues Submitted
+
+* [`dbplyr`](https://github.com/tidyverse/dbplyr/issues/553)
+* [`emphatic`](https://github.com/coolbutuseless/emphatic/issues/3)
+* [`glue`](https://github.com/tidyverse/glue/issues/158)
+* [`novaGallery` (open issue)](https://github.com/novafacile/novagallery/issues/52m)
+
+</div>
+
+# Code Examples {.section-box}
+
+## [Advent of Code](https://github.com/awong234/advent_of_code)
+
+* Ranked second out of 14 participating data scientists and BI developers on the company leaderboard.
+* Primarily interested in solving puzzles with `awk` to enhance programming skills with linux tools.
+* Selected entries:
+    * [R6 structures and matrix operations](https://github.com/awong234/advent_of_code/tree/main/2021/day_06)
+    * Visualized Day 9 solution with the `rayshader` R package [link](https://github.com/awong234/advent_of_code/blob/main/2021/day_09/readme.md).
+
+## [This resume!](https://github.com/awong234/Resume)
+
+* Follows a `make` workflow to generate the output files. Just run `make` to compile everything!
+* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf` to create the document.
+
+## [Automated internet speed tests, hosted on my website](https://alecsalces.com/speedtest/)
+
+* [Source code.](https://github.com/awong234/speedtest)
+* Tests speeds daily and updates website.
+* Displays data with D3.
