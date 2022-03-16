@@ -80,20 +80,6 @@ a:visited {
     animation-duration: 0.1s;
 }
 
-.pgr-box {
-    background-image: url('./assets/pgr_thumb.jpg');
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    background-size: 50px;
-}
-
-.cornell-box {
-    background-image: url('./assets/cornell_thumb.jpg');
-    background-position: 100% 0%;
-    background-repeat: no-repeat;
-    background-size: 50px;
-}
-
 @keyframes company-box-extend {
     from {
         padding-left: 10px
@@ -113,6 +99,21 @@ a:visited {
         padding-left: 10px
     }
 }
+
+.pgr-box {
+    background-image: url('./assets/pgr_thumb.jpg');
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.cornell-box {
+    background-image: url('./assets/cornell_thumb.jpg');
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
 
 .section-box {
     border: 1px inset $border-col;
