@@ -11,6 +11,7 @@ $font-fam: "Source Serif Pro", "Garamond", "serif";
 // Decoration
 $border-col: rgb(112, 112, 112);
 $border-padding: 20px;
+$company-border-expands-to: 10px;
 
 // Colors
 $background-col: rgb(12, 27, 48);
@@ -69,34 +70,39 @@ a:visited {
 
 .company-box {
     border-left: 1px solid $border-col;
-    padding-left: 10px;
+    padding-left: 20px;
     animation-name: company-box-reverse;
     animation-duration: 0.1s;
 }
 
 .company-box:hover {
-    padding-left: 20px;
+    border-left: $company-border-expands-to solid $hover-col;
+    padding-left: 11px;
     animation-name: company-box-extend;
     animation-duration: 0.1s;
 }
 
 @keyframes company-box-extend {
     from {
-        padding-left: 10px
+        border-left: 1px solid $border-col;
+        padding-left: 20px;
     }
 
     to {
-        padding-left: 20px
+        border-left: $company-border-expands-to solid $hover-col;
+        padding-left: 11px;
     }
 }
 
 @keyframes company-box-reverse {
     from {
-        padding-left: 20px
+        border-left: $company-border-expands-to solid $hover-col;
+        padding-left: 11px;
     }
 
     to {
-        padding-left: 10px
+        border-left: 1px solid $border-col;
+        padding-left: 20px;
     }
 }
 

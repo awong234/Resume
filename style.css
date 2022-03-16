@@ -49,15 +49,38 @@ a:visited {
 
 .company-box {
   border-left: 1px solid #707070;
-  padding-left: 10px;
+  padding-left: 20px;
   animation-name: company-box-reverse;
   animation-duration: 0.1s;
 }
 
 .company-box:hover {
-  padding-left: 20px;
+  border-left: 10px solid #b7fff5;
+  padding-left: 11px;
   animation-name: company-box-extend;
   animation-duration: 0.1s;
+}
+
+@keyframes company-box-extend {
+  from {
+    border-left: 1px solid #707070;
+    padding-left: 20px;
+  }
+  to {
+    border-left: 10px solid #b7fff5;
+    padding-left: 11px;
+  }
+}
+
+@keyframes company-box-reverse {
+  from {
+    border-left: 10px solid #b7fff5;
+    padding-left: 11px;
+  }
+  to {
+    border-left: 1px solid #707070;
+    padding-left: 20px;
+  }
 }
 
 .pgr-box {
@@ -72,24 +95,6 @@ a:visited {
   background-position: 100% 0%;
   background-repeat: no-repeat;
   background-size: 50px;
-}
-
-@keyframes company-box-extend {
-  from {
-    padding-left: 10px;
-  }
-  to {
-    padding-left: 20px;
-  }
-}
-
-@keyframes company-box-reverse {
-  from {
-    padding-left: 20px;
-  }
-  to {
-    padding-left: 10px;
-  }
 }
 
 .section-box {
