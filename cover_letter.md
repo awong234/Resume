@@ -27,5 +27,5 @@ colleagues -- while having a real and positive impact on the world.
 
 \
 
-Best regards,
+Best regards,\
 Alec Wong
