@@ -27,23 +27,22 @@ aw685@cornell.edu<br>
 
 2019 - Current
 
-### Job objectives
+### Role achievements
 
-- Successfully modeled staffing need for fortune 100 company using cutting edge modeling.
-- Streamlined staffing efficiency using latest techniques to process large amounts of claims data.
-- Guided leadership in the effective allocation of staffing for claims handling.
-- Automated several recurring reports and ETL procedures on linux servers.
-- Summarized highly technical models into potent and interactive media, including HTML presentations/dashboards, Tableau dashboards, and Excel spreadsheets, per business leaders' preferences.
-- Improved company best practices by being an early adopter and advocate for Git.
+- Drew insights from databases spanning multiple decades with many tables each containing hundreds of millions of records.
+- Performed consulation for IT at the behest of the Claims Controller, forecasting claims to determine when upper limit of claim ID numbers will be exceeded using Bayesian generalized linear regression with `rstanarm`.
+- Guided claims process leaders through understaffing crisis by building a model to rank states' understaffing condition, and forecasting inventory to predict impact of externally-hired temporary claims adjusters.
+- Developed careful, creative visualizations presented to upper-level and executive management in the form of HTML reports/presentations, using technologies including R Markdown, `ggplot2` and D3.
+- Pushed for code best-practices and introduced git to our team, checked critical code into Github repositories.
 
 ### Contributions additional to role
 
 - As the foremost proponent of R at Progressive, I:
-    - Developed several packages including tools to speed SQL connections, extend `ggplot` with a company color palette, and other miscellaneous functions.
-    - Spent 100 hours in 2021 providing one-on-one support to analysts all over the company
-    - Helped facilitate R Beginner's Workshops, and bi-weekly R Clinics.
+    - Developed several packages including tools to speed SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
+    - Spent over 100 hours in 2021 providing one-on-one support to analysts all over the company.
+    - Helped facilitate R Beginner's Workshops, led bi-weekly R Clinics, and produced a monthly newsletter.
+    - Assisted in the setup and maintenance of Rstudio Connect, Rstudio Package Manager, Rstudio Server.
     - Presented at company R meetups.
-    - Contributed to maintenance of a universal setup and configuration utility.
 - Won 2nd place in company-wide modeling challenge, involving over 15 teams.
 
 ## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
@@ -105,5 +104,31 @@ aw685@cornell.edu<br>
 * [`emphatic`](https://github.com/coolbutuseless/emphatic/issues/3)
 * [`glue`](https://github.com/tidyverse/glue/issues/158)
 
-
 </div>
+
+# Code Examples {.section-box}
+
+## [Advent of Code](https://github.com/awong234/advent_of_code)
+
+* Primarily solved puzzles with `awk` to enhance unix-like programming skills.
+* Visualized one solution with the `rayshader` R package [link](https://twitter.com/Awong234/status/1469025322813337605).
+
+## [This resume!](https://github.com/awong234/Tempus-Resume)
+
+* Follows a `make` workflow to generate the output files.
+* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf`.
+
+## [`r-halodotapi`]()
+
+* An R package wrapping API endpoints for accessing Halo match records.
+
+## [Small spatial analysis on housing price data](https://github.com/ClevelandRUserGroup/RTalksMarch2020/tree/master/submissions/alec_wong)
+
+* Produced for the Cleveland R User Group.
+* Uses Google geocoding, the `sf` package, and xgboost to assess value of spatial context in house prices.
+
+## [Automated internet speed tests, hosted on my website](https://alecsalces.com/speedtest/)
+
+* [Source code.](https://github.com/awong234/speedtest)
+* Tests speeds daily and updates website.
+* Displays data with D3.
