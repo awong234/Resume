@@ -29,13 +29,14 @@ aw685@cornell.edu<br>
 
 ### Job objectives
 
+- Successfully modeled staffing need for fortune 100 company using cutting edge modeling.
+- Streamlined staffing efficiency using latest techniques to process large amounts of claims data.
 - Guided leadership in the effective allocation of staffing for claims handling.
-- Used latest techniques and modern technologies to efficiently obtain, transform, model, and explain patterns in staffing and claims volume data.
-- Communicated findings through several media, including HTML presentations, Tableau dashboards, and Excel spreadsheets.
 - Automated several recurring reports and ETL procedures on linux servers.
-- Convinced leadership to organize and begin using git for critical code.
+- Summarized highly technical models into potent and interactive media, including HTML presentations/dashboards, Tableau dashboards, and Excel spreadsheets, per business leaders' preferences.
+- Improved company best practices by being an early adopter and advocate for Git.
 
-### Contributions external to role
+### Contributions additional to role
 
 - As the foremost proponent of R at Progressive, I:
     - Developed several packages including tools to speed SQL connections, extend `ggplot` with a company color palette, and other miscellaneous functions.
