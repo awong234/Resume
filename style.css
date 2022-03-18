@@ -84,17 +84,17 @@ a:visited {
 }
 
 .pgr-box {
-  background-image: url("./assets/pgr_thumb.jpg");
+  background-image: url("./assets/pgr_thumb_round_transp.png");
   background-position: 100% 0%;
   background-repeat: no-repeat;
-  background-size: 50px;
+  background-size: 75px;
 }
 
 .cornell-box {
-  background-image: url("./assets/cornell_thumb.jpg");
+  background-image: url("./assets/cornell_thumb_round_transp.png");
   background-position: 100% 0%;
   background-repeat: no-repeat;
-  background-size: 50px;
+  background-size: 75px;
 }
 
 .section-box {
@@ -112,6 +112,8 @@ a:visited {
 
 .section-header {
   border-bottom: 1px solid #707070;
+  animation-name: underline;
+  animation-duration: 0.1s;
 }
 
 .header-flex-container {
@@ -126,6 +128,12 @@ a:visited {
   justify-content: space-between;
   align-content: stretch;
   align-items: stretch;
+}
+
+@media (max-width: 800px) {
+  .bottom-grid {
+    flex-direction: column;
+  }
 }
 
 .bottom-grid-item {
