@@ -83,7 +83,7 @@ aw685@cornell.edu<br>
 * Python (package development, automation)
 * Git
 * SQL
-* JavaScript (D3, Ajax)
+* JavaScript (D3, jQuery)
 * Front-end development (HTML, CSS)
 * ArcGIS
 * Tableau
