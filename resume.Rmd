@@ -122,7 +122,7 @@ aw685@cornell.edu<br>
 
 ## [`r-halodotapi`](https://github.com/awong234/r-halodotapi)
 
-* An R package wrapping API endpoints for accessing Halo match records.
+* An R package wrapping API endpoints for accessing Halo game match records.
 * Full package complete with documentation, testing, and vignette.
 
 ## [Small spatial analysis on housing price data](https://github.com/ClevelandRUserGroup/RTalksMarch2020/tree/master/submissions/alec_wong)
