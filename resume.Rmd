@@ -29,30 +29,29 @@ aw685@cornell.edu<br>
 
 ### Role achievements
 
-- Drew insights from databases spanning multiple decades with many tables each containing hundreds of millions of records.
-- Performed consulation for IT at the behest of the Claims Controller, forecasting claims to determine when upper limit of claim ID numbers will be exceeded using Bayesian generalized linear regression with `rstanarm`.
-- Guided claims process leaders through understaffing crisis by building a model to rank states' understaffing condition, and forecasting inventory to predict impact of externally-hired temporary claims adjusters.
-- Developed careful, creative visualizations presented to upper-level and executive management in the form of HTML reports/presentations, using technologies including R Markdown, `ggplot2` and D3.
-- Pushed for code best-practices and introduced git to our team, checked critical code into Github repositories.
+- Drew insights from databases spanning multiple decades with tables each containing hundreds of millions of records.
+- Performed consultation for IT at the behest of the Claims Controller, to forecast when upper limit of claim ID numbers will be exceeded using Bayesian generalized linear regression with `rstanarm`.
+- Guided claims process leaders through understaffing crisis by building a model to rank states' understaffing condition and forecasting inventory to predict impact of temporarily hired claims adjusters.
+- Developed creative visualizations presented to upper-level and executive management in the form of HTML presentations, using technologies including R Markdown, `ggplot2` and D3.
+- Pushed for code best-practices, introduced git to our team, and checked critical code into Github repositories.
 
 ### Contributions additional to role
 
 - As the foremost proponent of R at Progressive, I:
     - Developed several packages including tools to speed SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
     - Spent over 100 hours in 2021 providing one-on-one support to analysts all over the company.
-    - Helped facilitate R Beginner's Workshops, led bi-weekly R Clinics, and produced a monthly newsletter.
+    - Helped facilitate R Beginner's Workshops, led bi-weekly R Support Sessions, and produced a monthly newsletter.
     - Assisted in the setup and maintenance of Rstudio Connect, Rstudio Package Manager, Rstudio Server.
-    - Presented at company R meetups.
 - Won 2nd place in company-wide modeling challenge, involving over 15 teams.
 
 ## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
 
 2015 - 2018
 
-- Developed two novel statistical models to estimate animal population size, applied to moose in New York.
+- Developed two novel statistical models to estimate animal population size applied to moose in New York.
 - Tested statistical model performance via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
 - Gained competency with Bayesian inference using Markov Chain Monte Carlo simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
-- Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and leading laboratory discussions on the use of Git and R Markdown to improve organization of research.
+- Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and led laboratory discussions on the use of Git and R Markdown to improve organization of research.
 - Communicated results to statistical and ecological audiences nationally and internationally.
 
 <div class=bottom-grid>
@@ -110,17 +109,21 @@ aw685@cornell.edu<br>
 
 ## [Advent of Code](https://github.com/awong234/advent_of_code)
 
-* Primarily solved puzzles with `awk` to enhance unix-like programming skills.
-* Visualized one solution with the `rayshader` R package [link](https://twitter.com/Awong234/status/1469025322813337605).
+* Ranked second out of 14 participating data scientists and BI developers on the company leaderboard.
+* Primarily interested in solving puzzles with `awk` to enhance programming skills with linux tools.
+* Selected entries:
+    * [R6 structures and matrix operations](https://github.com/awong234/advent_of_code/tree/main/2021/day_06)
+    * Visualized Day 9 solution with the `rayshader` R package [link](https://twitter.com/Awong234/status/1469025322813337605).
 
 ## [This resume!](https://github.com/awong234/Tempus-Resume)
 
 * Follows a `make` workflow to generate the output files.
-* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf`.
+* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf` to create the document.
 
-## [`r-halodotapi`]()
+## [`r-halodotapi`](https://github.com/awong234/r-halodotapi)
 
 * An R package wrapping API endpoints for accessing Halo match records.
+* Full package complete with documentation, testing, and vignette.
 
 ## [Small spatial analysis on housing price data](https://github.com/ClevelandRUserGroup/RTalksMarch2020/tree/master/submissions/alec_wong)
 
