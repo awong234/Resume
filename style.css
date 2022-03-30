@@ -6,7 +6,7 @@ body {
 }
 
 code {
-  font-family: "Cascadia Code", "Fira Code", "Hasklig", "Consolas", "monospace";
+  font-family: "Cascadia Code", "Fira Code", "Hasklig", "Consolas", monospace;
   background-color: #3d3d3d;
 }
 
