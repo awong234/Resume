@@ -6,6 +6,8 @@
 - wkhtmltopdf
 - make
 
+If you have chocolatey: 
+
 ```
 choco install R.Project
 choco install R.Studio
