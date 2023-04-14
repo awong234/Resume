@@ -38,7 +38,7 @@ aw685@cornell.edu<br>
 ### Contributions additional to role
 
 - As the foremost proponent of R at Progressive, I:
-    - Developed several packages including tools to speed SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
+    - Developed several packages including tools to eliminate boilerplate in SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
     - Spent over 100 hours in 2021 and 2022 providing one-on-one support to analysts all over the company.
     - Helped facilitate R Beginner's Workshops, led bi-weekly R Support Sessions, and produced a monthly newsletter.
     - Assisted in the setup and maintenance of Rstudio Connect, Rstudio Package Manager, Rstudio Server.
@@ -119,7 +119,7 @@ aw685@cornell.edu<br>
 
 ## [This resume!](https://github.com/awong234/Tempus-Resume)
 
-* Follows a `make` workflow to generate the output files.
+* Follows a `make` workflow to generate the output files. Just run `make` to compile everything!
 * Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf` to create the document.
 
 ## [`r-halodotapi`](https://github.com/awong234/r-halodotapi)
