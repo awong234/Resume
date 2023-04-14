@@ -29,11 +29,11 @@ aw685@cornell.edu<br>
 
 ### Role achievements
 
-- Drew insights from databases spanning multiple decades with tables each containing hundreds of millions of records.
-- Analyzed claims rep productivity, explaining shifts pre- and post-COVID regarding remote work, using a zero-inflated negative binomial GLM.
+- Explained shifts in rep productivity relating to COVID and remote work using a zero-inflated negative binomial GLM.
 - Performed consultation for IT at the behest of the Claims Controller, to forecast when upper limit of claim ID numbers will be exceeded using Bayesian generalized linear regression with `rstanarm`.
-- Guided claims process leaders through understaffing crisis by building a model to rank states' understaffing condition and forecasting inventory to predict impact of temporarily hired claims adjusters.
+- Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting inventory to predict impact of temporarily hired claims adjusters.
 - Pushed for code best-practices, introduced git to our team, and checked critical code into Github repositories.
+- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake) creating complex queries joining several tables each with hundreds of millions of records.
 
 ### Contributions additional to role
 
@@ -65,13 +65,15 @@ aw685@cornell.edu<br>
     * B.S. Fisheries and Wildlife. 2013. GPA: 3.84 *cum laude*
     * Minor: Mathematics
 
-# <span class=section-header>Public Presentations</span> {.section-box .bottom-grid-item}
+# <span class=section-header>Public Engagement</span> {.section-box .bottom-grid-item}
 
 ### 2019 ["Project Organization: Head-Ache to GNU Make" -- Cleveland R User Group](https://www.youtube.com/watch?v=dCkHqzotzsQ)
 
 ### 2020 ["Sarcasm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
 
 ### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
+
+### 2022 - Present [Co-organizer of the Cleveland R User Group](https://www.meetup.com/cleveland-user-group/)
 
 </div>
 
@@ -113,7 +115,7 @@ aw685@cornell.edu<br>
 * Primarily interested in solving puzzles with `awk` to enhance programming skills with linux tools.
 * Selected entries:
     * [R6 structures and matrix operations](https://github.com/awong234/advent_of_code/tree/main/2021/day_06)
-    * Visualized Day 9 solution with the `rayshader` R package [link](https://twitter.com/Awong234/status/1469025322813337605).
+    * Visualized Day 9 solution with the `rayshader` R package [link](https://github.com/awong234/advent_of_code/blob/main/2021/day_09/readme.md).
 
 ## [This resume!](https://github.com/awong234/Tempus-Resume)
 
@@ -124,6 +126,7 @@ aw685@cornell.edu<br>
 
 * An R package wrapping API endpoints for accessing Halo game match records.
 * Full package complete with documentation, testing, and vignette.
+* (now deprecated)
 
 ## [Small spatial analysis on housing price data](https://github.com/ClevelandRUserGroup/RTalksMarch2020/tree/master/submissions/alec_wong)
 
