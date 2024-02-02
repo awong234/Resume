@@ -9,7 +9,6 @@ output:
 source("scripts/sass.R")
 ```
 
-<div class=header-flex-container>
 # Alec Wong 
 
 # <span class=section-header>Professional Experience</span> {.section-box}
