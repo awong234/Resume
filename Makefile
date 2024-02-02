@@ -1,7 +1,10 @@
-all: index.html resume.pdf 
+all: checklib index.html resume.pdf 
 
 clean:
 	rm resume.pdf cover_letter.pdf index.html
+
+checklib:
+	Rscript --no-site-file --no-environ --no-init-file -e ".libPaths()"
 
 index.html: scripts/compile_resume.R resume.Rmd style.scss
 	Rscript $<

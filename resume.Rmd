@@ -10,16 +10,14 @@ source("scripts/sass.R")
 ```
 
 <div class=header-flex-container>
-# Alec Wong
+# Alec Wong 
 
-<div class=rf>
-<span class=sans>3366 East Scarborough Rd. Cleveland Hts, OH 44118<br>
-aw685@cornell.edu<br>
-917-326-1315</span>
-</div>
-</div>
-
-
+<!-- <div class=rf> -->
+<!-- <span class=sans>3366 East Scarborough Rd. Cleveland Hts, OH 44118<br> -->
+<!-- aw685@cornell.edu<br> -->
+<!-- 917-326-1315</span> -->
+<!-- </div> -->
+<!-- </div> -->
 
 # <span class=section-header>Professional Experience</span> {.section-box}
 
@@ -29,6 +27,7 @@ aw685@cornell.edu<br>
 
 ### Role achievements
 
+- Quantified drive task time for auto inspectors, increasing efficiency by $X
 - Explained shifts in rep productivity relating to COVID and remote work using a zero-inflated negative binomial GLM.
 - Performed consultation for IT at the behest of the Claims Controller, to forecast when upper limit of claim ID numbers will be exceeded using Bayesian generalized linear regression with `rstanarm`.
 - Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting inventory to predict impact of temporarily hired claims adjusters.
