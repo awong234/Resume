@@ -58,7 +58,7 @@ source("scripts/sass.R")
 
 * **Cornell University**, Ithaca, NY
     * M.S. Quantitative Ecology. 2018. GPA: 4.0
-    * Thesis: Sampling Strategies for Estimating Abundance of Moose (*Alces alces*) and Other Rare Species
+    * Thesis: [Sampling Strategies for Estimating Abundance of Moose (*Alces alces*) and Other Rare Species](https://drive.google.com/file/d/18yUIGAyi5ypOhyEOd3BlsLt-20M1R2LC/view)
 * **University of Nebraska**, Lincoln, NE
     * B.S. Fisheries and Wildlife. 2013. GPA: 3.84 *cum laude*
     * Minor: Mathematics
