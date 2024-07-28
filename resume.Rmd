@@ -22,7 +22,7 @@ source("scripts/sass.R")
 ### Highlighted role achievements
 
 <div class='company-bullets'>
-- Modeled claims adjuster productivity using zero-inflated negative binomial GLM using package `pscl` as well as non-linear mixed modeling with package `brms`, developing theory for an alternative staffing criterion.
+- Modeled claims adjuster productivity using zero-inflated negative binomial GLM using package `pscl` as well as non-linear mixed-effects modeling with package `brms`, developing theory for an alternative staffing criterion.
 - Forecasted when claim ID numbers will exceed limits using Bayesian generalized linear regression with `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
 - Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting workload to predict impact of temporarily hired claims adjusters.
 - Broad experience in several SQL frameworks (TSQL, DB2, Snowflake, `duckdb`) creating complex queries joining several tables each with hundreds of millions of records.
