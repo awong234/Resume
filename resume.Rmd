@@ -46,8 +46,7 @@ source("scripts/sass.R")
 
 <div class='company-bullets'>
 - Gained competency with Bayesian inference using Markov Chain Monte Carlo (MCMC) simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
-- Developed two novel statistical models to estimate animal population size applied to moose in New York.
-- These models used MCMC to make inferences about animal population size and relationships with spatial habitat covariates.
+- Developed two novel statistical models that use MCMC to estimate animal population size and relationships with spatial habitat covariates, applied to moose in New York.
 - The statistical models' performance was tested via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
 - Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and led laboratory discussions on the use of Git and R Markdown to improve organization of research.
 - Communicated results to statistical and ecological audiences nationally and internationally.
