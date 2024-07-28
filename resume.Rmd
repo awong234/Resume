@@ -21,13 +21,16 @@ source("scripts/sass.R")
 
 ### Highlighted role achievements
 
-- Modeled claims adjuster productivity using zero-inflated negative binomial GLM as well as non-linear mixed modeling, developing theory for an alternative staffing criterion.
+<div class='company-bullets'>
+- Modeled claims adjuster productivity using zero-inflated negative binomial GLM using package `pscl` as well as non-linear mixed modeling with package `brms`, developing theory for an alternative staffing criterion.
 - Forecasted when claim ID numbers will exceed limits using Bayesian generalized linear regression with `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
 - Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting workload to predict impact of temporarily hired claims adjusters.
-- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake) creating complex queries joining several tables each with hundreds of millions of records.
+- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake, `duckdb`) creating complex queries joining several tables each with hundreds of millions of records.
+</div>
 
 ### Contributions additional to role
 
+<div class='company-bullets'>
 - Pushed for code best-practices early, introduced git to our team, and checked critical code into Github repositories.
 - Developed curricula for and taught a dual R and Python course to 25 attendees over the course of 9 months.
 - Developed several R and python packages including tools to eliminate boilerplate in SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
@@ -35,16 +38,20 @@ source("scripts/sass.R")
 - Helped facilitate R Beginner's Workshops, led bi-weekly R Support Sessions, and produced an in-house newsletter.
 - Assisted in the setup and maintenance of Posit corporate productivity software, and an in-house python cloud platform.
 - Won 2nd place in company-wide modeling challenge, involving over 15 teams.
+</div>
 
 ## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
 
 2015 - 2018
 
+<div class='company-bullets'>
+- Gained competency with Bayesian inference using Markov Chain Monte Carlo (MCMC) simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
 - Developed two novel statistical models to estimate animal population size applied to moose in New York.
-- Tested statistical model performance via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
-- Gained competency with Bayesian inference using Markov Chain Monte Carlo simulation, geostatistical modeling, maximum likelihood optimization procedures, and generalized linear models.
+- These models used MCMC to make inferences about animal population size and relationships with spatial habitat covariates.
+- The statistical models' performance was tested via simulation analysis using high-performance computing techniques using an original dual-layer parallelization scheme of a cluster of computers.
 - Applied motivational and effective leadership leading field research teams of up to 10 personnel into wilderness conditions, and led laboratory discussions on the use of Git and R Markdown to improve organization of research.
 - Communicated results to statistical and ecological audiences nationally and internationally.
+</div>
 
 <div class=bottom-grid>
 
@@ -59,15 +66,11 @@ source("scripts/sass.R")
 
 # <span class=section-header>Public Engagement</span> {.section-box .bottom-grid-item}
 
-### 2019 ["Project Organization: Head-Ache to GNU Make" -- Cleveland R User Group](https://www.youtube.com/watch?v=dCkHqzotzsQ)
-
-### 2020 ["Sarcasm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
-
-### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
-
-### 2022 - Present [Co-organizer of the Cleveland R User Group](https://www.meetup.com/cleveland-user-group/)
-
 ### 2024 - Present ["Data Laundry" data cleaning & exploration series](https://github.com/awong234/laundry-day)
+### 2022 - Present [Co-organizer of the Cleveland R User Group](https://www.meetup.com/cleveland-user-group/)
+### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
+### 2020 ["Sarcasm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
+### 2019 ["Project Organization: Head-Ache to GNU Make" -- Cleveland R User Group](https://www.youtube.com/watch?v=dCkHqzotzsQ)
 
 </div>
 
