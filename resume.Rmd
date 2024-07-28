@@ -117,13 +117,13 @@ source("scripts/sass.R")
     * [R6 structures and matrix operations](https://github.com/awong234/advent_of_code/tree/main/2021/day_06)
     * Visualized Day 9 solution with the `rayshader` R package [link](https://github.com/awong234/advent_of_code/blob/main/2021/day_09/readme.md).
 
-## [This resume!](https://github.com/awong234/Resume)
-
-* Follows a `make` workflow to generate the output files. Just run `make` to compile everything!
-* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf` to create the document.
-
 ## [Automated internet speed tests, hosted on my website](https://alecsalces.com/speedtest/)
 
 * [Source code.](https://github.com/awong234/speedtest)
 * Tests speeds daily and updates website.
 * Displays data with D3.
+
+## [This resume!](https://github.com/awong234/Resume)
+
+* Follows a `make` workflow to generate the output files. Just run `make` to compile everything!
+* Uses `rmd`, `scss`, `pandoc`, and `wkhtmltopdf` to create the document.
