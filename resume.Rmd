@@ -137,5 +137,5 @@ source("scripts/sass.R")
 </div>
 
 <div class=footer>
-Last update: `r format(Sys.time(), '%Y-%m-%d %H:%M:%S')`
+Last update: `r format(Sys.time(), '%Y-%m-%d')`
 </div>
