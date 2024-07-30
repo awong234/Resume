@@ -382,6 +382,7 @@ width: 95%;
 border: 1px inset #707070;
 padding-left: 20px;
 padding-right: 20px;
+padding-bottom: 20px;
 margin-bottom: 10px;
 background-color: #2b3646;
 border-radius: 0.1cm;
@@ -391,8 +392,6 @@ border: 1px inset white;
 }
 .section-header {
 border-bottom: 1px solid #707070;
-animation-name: underline;
-animation-duration: 0.1s;
 }
 .header-flex-container {
 display: flex;
@@ -406,13 +405,22 @@ display: -webkit-box;
 display: -webkit-flex;
 display: flex;
 }
+.bottom-grid ul {
+padding-left: 20px;
+padding-right: 20px;
+}
+@media (min-width: 801px) {
+.bottom-grid-item {
+width: 50%;
+}
+}
 @media (max-width: 800px) {
 .bottom-grid {
 flex-direction: column;
 }
-}
 .bottom-grid-item {
-width: 50%;
+width: 100%;
+}
 }
 #header {
 display: none;
@@ -425,6 +433,9 @@ font-family: "Noto Sans", "Calibri", "sans serif";
 }
 .test {
 border: 1px solid red;
+}
+.footer {
+text-align: right;
 }
 </style>
 
@@ -543,20 +554,23 @@ Experience</span></h1>
 <div class="company-bullets">
 <ul>
 <li>Modeled claims adjuster productivity using zero-inflated negative
-binomial GLM using package <code>pscl</code> as well as non-linear
-mixed-effects modeling with package <code>brms</code>, developing theory
-for an alternative staffing criterion.</li>
+binomial GLM using R package <code>pscl</code> as well as non-linear
+mixed-effects modeling with R package <code>brms</code>, developing
+theory for an alternative staffing criterion.</li>
 <li>Forecasted when claim ID numbers will exceed limits using Bayesian
-generalized linear regression with <code>rstanarm</code>, providing a
-recommended date for the start of a large-scale effort to increase claim
-ID size.</li>
+generalized linear regression with R package <code>rstanarm</code>,
+providing a recommended date for the start of a large-scale effort to
+increase claim ID size.</li>
+<li>Developed a data pipeline in python to quantify auto inspector drive
+times using location information and Google Maps Distance Matrix API,
+increasing efficiency by approximately 80 FTE.</li>
 <li>Guided claims process leaders through under-staffing crisis by
 building a model to rank states’ under-staffing condition and correctly
 forecasting workload to predict impact of temporarily hired claims
 adjusters.</li>
 <li>Broad experience in several SQL frameworks (TSQL, DB2, Snowflake,
-<code>duckdb</code>) creating complex queries joining several tables
-each with hundreds of millions of records.</li>
+duckdb) creating complex queries joining several tables each with
+hundreds of millions of records.</li>
 </ul>
 </div>
 </div>
@@ -616,9 +630,9 @@ nationally and internationally.</li>
 <li><strong>Cornell University</strong>, Ithaca, NY
 <ul>
 <li>M.S. Quantitative Ecology. 2018. GPA: 4.0</li>
-<li>Thesis: <a href="https://drive.google.com/file/d/18yUIGAyi5ypOhyEOd3BlsLt-20M1R2LC/view">Sampling
-Strategies for Estimating Abundance of Moose (<em>Alces alces</em>) and
-Other Rare Species</a></li>
+<li>Thesis: <a href="https://drive.google.com/file/d/18yUIGAyi5ypOhyEOd3BlsLt-20M1R2LC/view">Methodologies
+for abundance estimation of moose (<em>Alces alces</em>) and other rare
+species</a></li>
 </ul></li>
 <li><strong>University of Nebraska</strong>, Lincoln, NE
 <ul>
@@ -643,7 +657,7 @@ Parselmouth, Harry! Speaking python inside of R workflows” – satRday
 Columbus, Cleveland R User Group</a></h3>
 </div>
 <div id="sarcasm-practicing-programming-techniques-via-an-r-package-satrday-columbus" class="section level3">
-<h3>2020 <a href="https://www.youtube.com/watch?v=_ulDpEcjZEA">“Sarcasm:
+<h3>2020 <a href="https://www.youtube.com/watch?v=_ulDpEcjZEA">“sARcASm:
 Practicing programming techniques via an R package” – satRday
 Columbus</a></h3>
 </div>
@@ -658,7 +672,7 @@ Organization: Head-Ache to GNU Make” – Cleveland R User Group</a></h3>
 <h1 class="section-box bottom-grid-item"><span class="section-header">Software</span></h1>
 <ul>
 <li>R (package development, statistical analysis)</li>
-<li>Python (package development, automation, machine learning)</li>
+<li>Python (ETL, automation)</li>
 <li>Git</li>
 <li>SQL</li>
 <li>Front-end development (HTML, CSS, JavaScript)</li>
@@ -668,23 +682,24 @@ Organization: Head-Ache to GNU Make” – Cleveland R User Group</a></h3>
 </div>
 <div id="open-source-contributions" class="section level1 section-box bottom-grid-item">
 <h1 class="section-box bottom-grid-item"><span class="section-header">Open-Source Contributions</span></h1>
+<div class="bottom-grid">
 <div id="pull-requests" class="section level2">
 <h2>Pull-requests</h2>
 <ul>
 <li><a href="https://github.com/r-lib/keyring/pull/88"><code>keyring</code>
-(merged into master)</a></li>
+(merged)</a></li>
 <li><a href="https://github.com/rticulate/import/pull/55"><code>import</code>
-(merged into dev)</a></li>
+(merged)</a></li>
 <li><a href="https://github.com/coolbutuseless/emphatic/pull/4"><code>emphatic</code>
-(merged into master)</a></li>
+(merged)</a></li>
 <li><a href="https://github.com/r-box/boxr/pull/79"><code>boxr</code>
-(merged into master)</a></li>
+(merged)</a></li>
 <li><a href="https://github.com/novafacile/novagallery/pull/51"><code>novaGallery</code>
-(open PR)</a></li>
+(open)</a></li>
 </ul>
 </div>
-<div id="issues-submitted" class="section level2">
-<h2>Issues Submitted</h2>
+<div id="issues" class="section level2">
+<h2>Issues</h2>
 <ul>
 <li><a href="https://github.com/rticulate/import/issues/59"><code>import #59</code></a>,
 <a href="https://github.com/rticulate/import/issues/56#issuecomment-1129147197">dev
@@ -693,14 +708,14 @@ response</a></li>
 <li><a href="https://github.com/tidyverse/dbplyr/issues/553"><code>dbplyr</code></a></li>
 <li><a href="https://github.com/coolbutuseless/emphatic/issues/3"><code>emphatic</code></a></li>
 <li><a href="https://github.com/tidyverse/glue/issues/158"><code>glue</code></a></li>
-<li><a href="https://github.com/novafacile/novagallery/issues/52m"><code>novaGallery</code>
-(open issue)</a></li>
+<li><a href="https://github.com/novafacile/novagallery/issues/52"><code>novaGallery</code></a></li>
 </ul>
 </div>
 </div>
 </div>
+</div>
 <div id="code-examples" class="section level1 section-box">
-<h1 class="section-box">Code Examples</h1>
+<h1><span class="section-header">Code Examples</span></h1>
 <div id="advent-of-code" class="section level2">
 <h2><a href="https://github.com/awong234/advent_of_code">Advent of
 Code</a></h2>
@@ -737,6 +752,9 @@ Just run <code>make</code> to compile everything!</li>
 <code>wkhtmltopdf</code> to create the document.</li>
 </ul>
 </div>
+</div>
+<div class="footer">
+<p>Last update: 2024-07-30 10:47:32</p>
 </div>
 
 

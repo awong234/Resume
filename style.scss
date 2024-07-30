@@ -74,7 +74,7 @@ a:visited {
 
 .company-box {
     border-left: 1px solid $border-col;
-    padding-left: 20px;
+    padding-left: $border-padding;
     animation-name: company-box-reverse;
     animation-duration: 0.1s;
 }
@@ -134,6 +134,7 @@ a:visited {
     border: 1px inset $border-col;
     padding-left: $border-padding;
     padding-right: $border-padding;
+    padding-bottom: $border-padding;
     margin-bottom: $border-padding/2;
     background-color: $box-col;
     border-radius: 0.1cm;
@@ -145,8 +146,6 @@ a:visited {
 
 .section-header {
     border-bottom: 1px solid $border-col;
-    animation-name: underline;
-    animation-duration: 0.1s;
 }
 
 .header-flex-container {
@@ -154,7 +153,7 @@ a:visited {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: $border-padding;
 }
 
 .bottom-grid {
@@ -163,16 +162,26 @@ a:visited {
     display: flex;
 }
 
+.bottom-grid ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 801px) {
+    .bottom-grid-item {
+        width: 50%;
+    }
+}
+
 @media (max-width: 800px) {
-  .bottom-grid {
-    flex-direction: column;
-  }
-}
+    .bottom-grid {
+        flex-direction: column;
+    }
 
-.bottom-grid-item {
-    width: 50%;
+    .bottom-grid-item {
+        width: 100%;
+    }
 }
-
 
 #header {
     display: none;
@@ -188,4 +197,8 @@ a:visited {
 
 .test {
     border: 1px solid red;
+}
+
+.footer {
+    text-align: right;
 }
