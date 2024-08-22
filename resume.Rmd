@@ -26,7 +26,8 @@ source("scripts/sass.R")
 - Forecasted when claim ID numbers will exceed limits using Bayesian generalized linear regression with R package `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
 - Developed a data pipeline in python to quantify auto inspector drive times using location information and Google Maps Distance Matrix API, increasing efficiency by approximately 80 FTE.
 - Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting workload to predict impact of temporarily hired claims adjusters.
-- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake, duckdb) creating complex queries joining several tables each with hundreds of millions of records.
+- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake, SQLite, duckdb) creating complex queries joining several tables each with hundreds of millions of records.
+- Recast critical team SQL dataset using delta compression to reduce storage size by >5x and reduce analyst time spent writing lengthy and repetitive queries.
 </div>
 
 ### Contributions additional to role

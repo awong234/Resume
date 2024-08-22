@@ -10,5 +10,5 @@ index.html: scripts/compile_resume.R resume.Rmd style.scss
 	Rscript $<
 
 resume.pdf: index.html
-	wkhtmltopdf -B 0 -L 0 -R 0 -T 0 --page-height 430 --page-width 250 --viewport-size 850 $< $@
+	wkhtmltopdf -B 0 -L 0 -R 0 -T 0 --page-height 440 --page-width 250 --viewport-size 850 $< $@
 
