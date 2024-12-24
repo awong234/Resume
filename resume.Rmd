@@ -22,24 +22,26 @@ source("scripts/sass.R")
 ### Highlighted role achievements
 
 <div class='company-bullets'>
+- Replaced tabular estimation of core team metrics with statistical models, reducing run-time and providing a framework to interpret variable effects and model parsimony.
 - Modeled claims adjuster productivity using zero-inflated negative binomial GLM using R package `pscl` as well as non-linear mixed-effects modeling with R package `brms`, developing theory for an alternative staffing criterion.
-- Forecasted when claim ID numbers will exceed limits using Bayesian generalized linear regression with R package `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
-- Developed a data pipeline in python to quantify auto inspector drive times using location information and Google Maps Distance Matrix API, increasing efficiency by approximately 80 FTE.
-- Guided claims process leaders through under-staffing crisis by building a model to rank states' under-staffing condition and correctly forecasting workload to predict impact of temporarily hired claims adjusters.
-- Broad experience in several SQL frameworks (TSQL, DB2, Snowflake, SQLite, duckdb) creating complex queries joining several tables each with hundreds of millions of records.
-- Recast critical team SQL dataset using delta compression to reduce storage size by >5x and reduce analyst time spent writing lengthy and repetitive queries.
+- Forecasted risk of when claim ID numbers might exceed limits using Bayesian generalized linear regression with R package `rstanarm`, providing a recommended date for the start of a large-scale effort to increase claim ID size.
+- Increased efficiency by approximately 80 FTE using a data pipeline in python to quantify auto inspector drive times using location information and Google Maps Distance Matrix API.
+- Improved team efficiency by creating an interactive framework in the form of a web application for comparing adjustments to our staff model, abstracting a previously labor-intensive manual process.
+- Recast central team SQL dataset using delta compression to reduce storage size by over 5x and reduce analyst time spent writing lengthy and repetitive queries.
+- Experienced in several SQL frameworks (TSQL, DB2, Snowflake, SQLite, duckdb) creating complex queries joining several tables each with hundreds of millions of records.
 </div>
 
 ### Contributions additional to role
 
 <div class='company-bullets'>
-- Pushed for code best-practices early, introduced git to our team, and checked critical code into Github repositories.
-- Developed curricula for and taught a dual R and Python course to 25 attendees over the course of 9 months.
+- Top 3 finalist in the 2024 Inviztational, a company-wide visualization challenge, to present on January 7 2025 a dynamic visualization displaying satellite imagery of hurricanes over their lifespan.
+- Developed and taught a curriculum for a dual R and Python course to 25 attendees over a 9 month period.
+- Enforced code best-practices, introduced collaborative git workflows to our team, and checked critical code into Github repositories.
 - Developed several R and python packages including tools to eliminate boilerplate in SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
 - Spent over 100 hours between 2021 and 2024 providing one-on-one support to analysts all over the company supporting R, Python, and SQL questions.
-- Helped facilitate R Beginner's Workshops, led bi-weekly R Support Sessions, and produced an in-house newsletter.
-- Assisted in the setup and maintenance of Posit corporate productivity software, and an in-house python cloud platform.
-- Won 2nd place in company-wide modeling challenge, involving over 15 teams.
+- Led bi-weekly R Clinic support sessions as the R SME for Progressive (ongoing).
+- Assisted in testing of Posit corporate productivity software, as well as an in-house python cloud platform.
+- Won 2nd place in SPrize 2021, a company-wide predictive modeling challenge, involving over 15 teams.
 </div>
 
 ## Cornell University -- *Graduate Research Assistant* {.company-box .cornell-box}
@@ -79,8 +81,8 @@ source("scripts/sass.R")
 
 # <span class=section-header>Software</span> {.section-box .bottom-grid-item}
 
-* R (package development, statistical analysis)
-* Python (ETL, automation)
+* R (since 2014. Uses: statistical analysis, package development, web app development)
+* Python (since 2019. Uses: ETL, web API's, automation, deep learning)
 * Git
 * SQL
 * Front-end development (HTML, CSS, JavaScript)
@@ -116,13 +118,19 @@ source("scripts/sass.R")
 
 # <span class=section-header>Code Examples</span>
 
+## [Pytorch implementations for image and video](https://github.com/awong234/torch-for-image-and-video)
+
+* An exploration of neural network architectures for image and video.
+* Tasks explored: image generation/completion, regression from video input.
+* Key lessons: data loaders, model training, model evaluation, cuda integration, U-Net, network visualization
+
 ## [Advent of Code](https://github.com/awong234/advent_of_code)
 
 * Ranked second out of 14 participating data scientists and BI developers on the company leaderboard.
 * Primarily interested in solving puzzles with `awk` to enhance programming skills with linux tools.
-* Selected entries:
+* Selected entries (2021):
     * [R6 structures and matrix operations](https://github.com/awong234/advent_of_code/tree/main/2021/day_06)
-    * Visualized Day 9 solution with the `rayshader` R package [link](https://github.com/awong234/advent_of_code/blob/main/2021/day_09/readme.md).
+    * Visualized 2021 Day 9 solution with the `rayshader` R package [link](https://github.com/awong234/advent_of_code/blob/main/2021/day_09/readme.md).
 
 ## [Automated internet speed tests, hosted on my website](https://alecsalces.com/speedtest/)
 
