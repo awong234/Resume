@@ -34,7 +34,7 @@ source("scripts/sass.R")
 ### Contributions additional to role
 
 <div class='company-bullets'>
-- Top 3 finalist in the 2024 Inviztational, a company-wide visualization challenge, to present on January 7 2025 a dynamic visualization displaying satellite imagery of hurricanes over their lifespan.
+- Won 1st Prize in the 2024 Inviztational, a company-wide visualization challenge for a prize of $2000, presenting a dynamic visualization displaying satellite imagery of hurricanes over their lifespan.
 - Developed and taught a curriculum for a dual R and Python course to 25 attendees over a 9 month period.
 - Enforced code best-practices, introduced collaborative git workflows to our team, and checked critical code into Github repositories.
 - Developed several R and python packages including tools to eliminate boilerplate in SQL connections, extend `ggplot2` with a company color palette, and other miscellaneous functions.
