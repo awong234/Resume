@@ -103,6 +103,7 @@ source("scripts/sass.R")
 
 ## Issues
 
+* [`pak #745`](https://github.com/r-lib/pak/issues/745)
 * [`import #59`](https://github.com/rticulate/import/issues/59), [dev response](https://github.com/rticulate/import/issues/56#issuecomment-1129147197)
 * [`import #56`](https://github.com/rticulate/import/issues/56)
 * [`dbplyr`](https://github.com/tidyverse/dbplyr/issues/553)
