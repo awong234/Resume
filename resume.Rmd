@@ -10,7 +10,7 @@ source("scripts/sass.R")
 ```
 
 <div class=header-flex-container>
-# Alec Wong
+# Alec Wong 
 </div>
 
 # <span class=section-header>Professional Experience</span> {.section-box}
@@ -70,6 +70,7 @@ source("scripts/sass.R")
 # <span class=section-header>Public Engagement</span> {.section-box .bottom-grid-item}
 
 ### 2024 - Present ["Data Laundry" data cleaning & exploration series](https://github.com/awong234/laundry-day)
+### 2024 - [R Consortium Interview](https://r-consortium.org/posts/the-cleveland-r-user-groups-journey-through-pandemic-adaptations-and-baseball-analytics-r-consortium/)
 ### 2022 - Present [Co-organizer of the Cleveland R User Group](https://www.meetup.com/cleveland-user-group/)
 ### 2021 ["You’re a Parselmouth, Harry! Speaking python inside of R workflows" -- satRday Columbus, Cleveland R User Group](https://www.youtube.com/watch?v=rAvPJzCKCCg)
 ### 2020 ["sARcASm: Practicing programming techniques via an R package" -- satRday Columbus](https://www.youtube.com/watch?v=_ulDpEcjZEA)
